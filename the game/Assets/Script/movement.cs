@@ -54,7 +54,7 @@ public class movement : MonoBehaviour
 
     private void flip()
     {
-        if (isfacingright && horizontal < 0f || !isfacingright && horizontal > 0f) 
+        if (isfacingright && horizontal > 0f || !isfacingright && horizontal < 0f) 
         {
 
             isfacingright = !isfacingright;
