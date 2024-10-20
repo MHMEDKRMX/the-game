@@ -2188,7 +2188,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 652f15d8ca8bb3c4fa8703d7da59c628, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -2225,8 +2225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 784269198}
-  groundcheck: {fileID: 1581013469}
-  groundlayer:
+  groundCheck: {fileID: 1581013469}
+  groundLayer:
     serializedVersion: 2
     m_Bits: 64
   tr: {fileID: 784269199}
